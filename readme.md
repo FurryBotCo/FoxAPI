@@ -10,7 +10,7 @@ The way to reach each of them is as follows:
 randomfox.ca: `ca`
 ```js
 const FoxAPI = require("foxapi");
-const f = new FoxAPI("FoxAPI/1.0.0 (https://github.com/FurryBotCo/FoxAPI"));
+const f = new FoxAPI("FoxAPI/1.0.1 (https://github.com/FurryBotCo/FoxAPI"));
 
 f.ca().then(res => console.log(res));
 // in the console:
@@ -29,7 +29,7 @@ f.ca().then(res => console.log(res));
 foxrudor.de: `de`
 ```js
 const FoxAPI = require("foxapi");
-const f = new FoxAPI("FoxAPI/1.0.0 (https://github.com/FurryBotCo/FoxAPI"));
+const f = new FoxAPI("FoxAPI/1.0.1 (https://github.com/FurryBotCo/FoxAPI"));
 
 // this api does not return any json, or any links to images, it just directly returns an image, so we improvise
 
@@ -50,7 +50,7 @@ f.de().then(res => console.log(res));
 api.furry.bot: `fb`
 ```js
 const FoxAPI = require("foxapi");
-const f = new FoxAPI("FoxAPI/1.0.0 (https://github.com/FurryBotCo/FoxAPI"));
+const f = new FoxAPI("FoxAPI/1.0.1 (https://github.com/FurryBotCo/FoxAPI"));
 
 f.fb().then(res => console.log(res));
 // in the console:
@@ -69,7 +69,7 @@ f.fb().then(res => console.log(res));
 ##### `fetchImage` example
 ```js
 const FoxAPI = require("foxapi");
-const f = new FoxAPI("FoxAPI/1.0.0 (https://github.com/FurryBotCo/FoxAPI"));
+const f = new FoxAPI("FoxAPI/1.0.1 (https://github.com/FurryBotCo/FoxAPI"));
 
 f.fb(true).then(res => console.log(res));
 // in the console:
